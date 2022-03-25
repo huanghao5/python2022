@@ -15,13 +15,18 @@
 # #显示一个对象在tuple里面的个数
 # print('Go的个数:',tuple1.count('Go'))
 
-'''
-tuple的对象是不可以变化，但是里面对象的值可以改变。
-'''
-tuple1 = ('Python', 'Go', 'Java', ['Selenium', 'Appium'])
-# 修改tuple第四个对象的值
-tuple1[3][0] = 'WebDriver'
-print('修改tuple对象的值:', tuple1)
+# '''
+# tuple的对象是不可以变化，但是里面对象的值可以改变。
+# '''
+# tuple1 = ('Python', 'Go', 'Java', ['Selenium', 'Appium'])
+# # 修改tuple第四个对象的值
+# tuple1[3][0] = 'WebDriver'
+# print('修改tuple对象的值:', tuple1)
 
 # 尝试修改tuple里面的值
-tuple1[0] = 'python'
+# tuple1[0] = 'python'
+
+def test_print():
+    print("__tuple")
+
+
