@@ -11,10 +11,8 @@ def func1(age=18):
 
 
 def func2(*args, **kwargs):
-
-    print("*args {0}, **kwargs {1}".format(args,kwargs))
+    print("*args {0}, **kwargs {1}".format(args, kwargs))
     print(type(args))
-
 
 
 if __name__ == '__main__':
@@ -22,4 +20,4 @@ if __name__ == '__main__':
 
     func1(age=19)
 
-    func2((1,2),name="lisi")
+    func2((1, 2), name="lisi")
